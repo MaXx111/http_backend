@@ -1,0 +1,30 @@
+{
+  "name": "http_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaXx111/http_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaXx111/http_backend/issues"
+  },
+  "homepage": "https://github.com/MaXx111/http_backend#readme",
+  "dependencies": {
+    "forever": "^4.0.3",
+    "forever-monitor": "^3.0.3",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "source-map-resolve": "^0.6.0",
+    "urix": "^0.1.0",
+    "uuid": "^9.0.0"
+  }
+}
